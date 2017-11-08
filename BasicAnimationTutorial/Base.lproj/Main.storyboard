@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tAp-JY-I1b">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BasicAnimationTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeu-LX-aZV">
+                                <rect key="frame" x="36" y="84" width="303" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Feg-wM-mZR"/>
+                                </constraints>
+                                <state key="normal" title="Normal Circle Pan Gesture"/>
+                                <connections>
+                                    <action selector="panGestureExample:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5W5-iS-f1f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i46-ta-xoT">
+                                <rect key="frame" x="36" y="148" width="303" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="0CN-6y-RoO"/>
+                                </constraints>
+                                <state key="normal" title="Core Animations Sample"/>
+                                <connections>
+                                    <action selector="coreAnimationSampleExample:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qkN-sC-Vst"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAC-x8-fD0">
+                                <rect key="frame" x="36" y="212" width="303" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gMR-EH-7eU"/>
+                                </constraints>
+                                <state key="normal" title="Custom Animation Transition"/>
+                                <connections>
+                                    <action selector="customAnimationTransition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FMI-mD-8uI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qju-IP-SFB">
+                                <rect key="frame" x="36" y="276" width="303" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="IMY-Dp-Tip"/>
+                                </constraints>
+                                <state key="normal" title="Custom Actionsheet"/>
+                                <connections>
+                                    <action selector="customActionSheetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RAx-ex-QBL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC7-Hv-DFE">
+                                <rect key="frame" x="40" y="340" width="295" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="u3o-bD-WXn"/>
+                                </constraints>
+                                <state key="normal" title="Collection View Sample"/>
+                                <connections>
+                                    <action selector="collectionViewSample:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gw7-is-gJt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePb-xK-pYq">
+                                <rect key="frame" x="36" y="404" width="303" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ths-82-yys"/>
+                                </constraints>
+                                <state key="normal" title="PopOver"/>
+                                <connections>
+                                    <action selector="popOverAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ng7-8J-Z0U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPQ-8L-NWo">
+                                <rect key="frame" x="36" y="468" width="303" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="5gF-Kv-hcX"/>
+                                </constraints>
+                                <state key="normal" title="Gradient"/>
+                                <connections>
+                                    <action selector="gradientAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vr2-rN-AXE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Eg-jG-0SC">
+                                <rect key="frame" x="36" y="532" width="303" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="jNB-q5-bgR"/>
+                                </constraints>
+                                <state key="normal" title="ToolBar Example"/>
+                                <connections>
+                                    <action selector="sampleToolBar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e9x-nM-ufa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nC7-Hv-DFE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="696-eN-2R9"/>
+                            <constraint firstItem="i46-ta-xoT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="6HA-Vc-bkt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ePb-xK-pYq" secondAttribute="trailing" constant="20" id="7YU-aV-1kr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nAC-x8-fD0" secondAttribute="trailing" constant="20" id="8Im-84-3xP"/>
+                            <constraint firstItem="ePb-xK-pYq" firstAttribute="top" secondItem="nC7-Hv-DFE" secondAttribute="bottom" constant="20" id="ArQ-4l-xfs"/>
+                            <constraint firstItem="nC7-Hv-DFE" firstAttribute="top" secondItem="qju-IP-SFB" secondAttribute="bottom" constant="20" id="C25-Cx-sXP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oeu-LX-aZV" secondAttribute="trailing" constant="20" id="DEA-Gm-J0b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Eg-jG-0SC" secondAttribute="trailing" constant="20" id="DQ9-wz-XPv"/>
+                            <constraint firstItem="qju-IP-SFB" firstAttribute="top" secondItem="nAC-x8-fD0" secondAttribute="bottom" constant="20" id="Gmg-I5-9dc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MPQ-8L-NWo" secondAttribute="trailing" constant="20" id="NUv-AD-GYr"/>
+                            <constraint firstAttribute="trailing" secondItem="nC7-Hv-DFE" secondAttribute="trailing" constant="40" id="Xbc-ij-P45"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qju-IP-SFB" secondAttribute="trailing" constant="20" id="aCh-wJ-slx"/>
+                            <constraint firstItem="oeu-LX-aZV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="aFI-Qw-7EI"/>
+                            <constraint firstItem="nAC-x8-fD0" firstAttribute="top" secondItem="i46-ta-xoT" secondAttribute="bottom" constant="20" id="d5v-CS-wbd"/>
+                            <constraint firstItem="MPQ-8L-NWo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="dSa-ju-d4f"/>
+                            <constraint firstItem="6Eg-jG-0SC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="fba-Ap-pKz"/>
+                            <constraint firstItem="oeu-LX-aZV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="hHz-tM-AYi"/>
+                            <constraint firstItem="MPQ-8L-NWo" firstAttribute="top" secondItem="ePb-xK-pYq" secondAttribute="bottom" constant="20" id="iO0-lc-hyG"/>
+                            <constraint firstItem="qju-IP-SFB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="oLN-3Q-oQw"/>
+                            <constraint firstItem="6Eg-jG-0SC" firstAttribute="top" secondItem="MPQ-8L-NWo" secondAttribute="bottom" constant="20" id="pV9-2e-GGB"/>
+                            <constraint firstItem="i46-ta-xoT" firstAttribute="top" secondItem="oeu-LX-aZV" secondAttribute="bottom" constant="20" id="slk-pS-R2A"/>
+                            <constraint firstItem="nAC-x8-fD0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="vs7-lU-paa"/>
+                            <constraint firstItem="ePb-xK-pYq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="xRT-F8-pmN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i46-ta-xoT" secondAttribute="trailing" constant="20" id="zJm-Dj-zAI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kRo-s6-i5F"/>
+                    <connections>
+                        <outlet property="customActionSheet" destination="qju-IP-SFB" id="JNq-BJ-lD5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3893.5999999999999" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gD6-hW-rAc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xNn-2H-w4S" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="s4c-dn-gwN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LFa-Hg-5rg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="790.25487256371821"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lEa-WQ-pmx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tAp-JY-I1b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="meQ-nu-Yit">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JSE-Jj-tpE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KGc-J6-9td" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2954.4000000000001" y="136.28185907046478"/>
+        </scene>
+    </scenes>
+</document>
