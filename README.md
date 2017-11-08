@@ -1,4 +1,4 @@
-# sampleAnimation
+# Simple Animations in Swift 3
 Sample Useful Animations Swift 3
 Bunch of useful animation used in daily life for a devleoper
 1. Pan Gesture
